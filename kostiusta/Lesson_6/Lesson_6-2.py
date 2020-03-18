@@ -1,0 +1,10 @@
+Python={'Kolya','Vasia','Dima'}
+FrontEnd={'Kolya','Danil','Sergey'}
+FullStack={'Sergey','Kolya','Vasia'}
+Java={'Vova','Kolya','Dima'}
+more_2_groups=Python&FrontEnd&FullStack&Java
+print(more_2_groups)
+not_FrontEnd=FrontEnd-Python-FullStack-Java
+print(not_FrontEnd)
+pj_students=Python&Java
+print(pj_students)
