@@ -1,0 +1,19 @@
+body{
+	background: #6384be;
+	background: -webkit-linear-gradient(-45deg, #375283, #cbd6e9);
+	background: linear-gradient(-45deg, #375283, #cbd6e9);
+}
+
+
+P	{
+	color:black; font-family: Arial; font-size: 15px;
+}
+H2	{
+	color:black; font-family: Edwardian Script ITC; font-size: 35px;text-align: center;
+}
+H1	{
+	color:maroon; font-family: Times New Roman; font-size: 40px;
+}
+p:first-letter{
+	color: red; font-family: Old English Text MT; font-size: 55px;
+}

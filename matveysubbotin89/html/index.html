@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head> <!--Head provides service information about site, such as Title, metadata, coding and other -->
+		<title>ATM program by Python</title> <!--Title defines name of tag at top of browser -->
+		<meta charset = "utf-8"/>
+		<meta name = "description" lang="en" content="This site prepared for presentation working of bankomat program by Python"/>
+		<meta name = "description" lang="ru" content="Этот сайт показывает работу программы 'банкомат', которая написана на Python"/>
+		<meta name = "keywords" lang="en" content = "HTML, bankomat, ATM, watch online, without registration, free, tax, covid-19"> 
+		<meta name = "keywords" lang="ru" content = "НТМЛ, банкомат, приватбанк, смотреть онлайн, без регистрации, бесплатно, налог, covid-19"> <!--Keywords is used by search system, like Google, Yahoo, Yandex-->
+		<meta name = "Author" content = "Matvii Subbotin"/> <!--Author tag-->
+		<meta name = "robots" content="index, follow"/><!--indexation means using keywords by search system (index/noindex),  to allow follow by link or not (follow/nofollow)-->
+		<link href="./style.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Welcome to user interface for <em><a href = "file:D:\Python\Git\html\bankomat.jpg">"bankomat"</a></em> program</h1>
+		<div id ="Description">
+			<h2><u>Description of the program</u></h2>
+			<p>Did you think about <a href = "https://en.wikipedia.org/wiki/Automated_teller_machine" target = "_blank">ATM</a> working.</p>
+			<ul>
+				<li>How is he calculate number of banknotes according to your request?</li>
+				<li>What will he do when one of banknotes basket is empty?</li>
+				<li>What is happens when you type number, which is higher as available?</li>
+				<li>What is happened if you enter zero?</li>
+			</ul>
+			<p>This program will answer on this and more other questions</p>
+		</div>
+		<div id="Input">
+			<h2><u> Input data </u></h2>
+			<p> How many money user needs. This information are transferring to program as input data.<br>User should type number in field. The number must be integer and uses available nominals banknotes as dividers. </p>
+		</div>
+		<div id="Output">
+			<h2><u>Output data </u></h2>
+			<p id= "p1"> Program will return dictionary, dictionary includes every nominals of banknotes as key and number of banknotes as value of this key.<br>The result will have been showed like this <code>{5: 1, 10: 6, 20: 10, 50: 10, 100: 1, 200: 0, 500: 1, 1000: 1}</code>. It does mean user entered nuber 2365.<br>If you summ all banknotes (key*value), the result will eqvel to input number.</p>
+		</div>
+		<div id="Feature">
+			<h2><u> Feature of the program </u></h2>
+			<p> <a href= #p1>As you can see</a>, the returned value is not normal. Programs is trying to give money with minimal nominal of banknotes at first, and rest will be calculated from highest to lowest nominals of banknotes. </p>
+		</div>
+		<div id="Limitations">
+			<h2><u> Limitations of program </u></h2>
+			<p> Program does not work with banknotes lowest as 5 grivnas. If user enter number which is could to divide on smaller number as five.<br>Program will return error message : "Sorry, value is not correct." </p>
+			<p> Engineer can change quantity of smallest banknotes, the default value is 10(ten) for banknotes: 5, 10, 20, 50. </p>
+		</div>
+	
+	
+	
+	</body>
+</html>
